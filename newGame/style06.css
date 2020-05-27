@@ -1,0 +1,261 @@
+input{
+  visibility: hidden;
+}
+header{
+  margin-top: 50px;
+}
+header img{
+  margin-left:35%;
+}
+
+body{
+
+  margin: 0 auto;
+  background-image:url(imagesR/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+label[for=target1]{
+  display:inline-block;
+  width:180px;
+  height: 180px;
+  background-image:url(imagesR/0001.jpg);
+  border-radius:20px;
+
+}
+label[for=target2]{
+  display:inline-block;
+  width:180px;
+  height: 180px;
+  background-image:url(imagesR/0002.jpg);
+  border-radius:20px;
+
+}
+label[for=target3]{
+  display:inline-block;
+  width:180px;
+  height: 180px;
+  background-image:url(imagesR/0003.jpg);
+  border-radius:20px;
+
+}
+label[for=target4]{
+  display:inline-block;
+  width:180px;
+  height: 180px;
+  background-image:url(imagesR/0004.jpg);
+  border-radius:20px;
+
+}
+label[for=target5]{
+  display:inline-block;
+  width:180px;
+  height: 180px;
+  background-image:url(imagesR/0005.jpg);
+  border-radius:20px;
+
+}
+label[for=target6]{
+  display:inline-block;
+  width:180px;
+  height: 180px;
+  background-image:url(imagesR/0006.jpg);
+  border-radius:20px;
+}
+label[for=target7]{
+  display:inline-block;
+  width:180px;
+  height: 180px;
+  background-image:url(imagesR/0007.jpg);
+  border-radius:20px;
+}
+label[for=target8]{
+  display:inline-block;
+  width:180px;
+  height: 180px;
+  background-image:url(imagesR/0008.jpg);
+  border-radius:20px;
+}
+
+
+label[for=target1d]{
+  display:inline-block;
+  width:180px;
+  height: 180px;
+  background-image:url(imagesR/0001d.jpg);
+  border-radius:20px;
+
+}
+label[for=target2d]{
+  display:inline-block;
+  width:180px;
+  height: 180px;
+  background-image:url(imagesR/0002d.jpg);
+  border-radius:20px;
+
+}
+label[for=target3d]{
+  display:inline-block;
+  width:180px;
+  height: 180px;
+  background-image:url(imagesR/0003d.jpg);
+  border-radius:20px;
+
+}
+label[for=target4d]{
+  display:inline-block;
+  width:180px;
+  height: 180px;
+  background-image:url(imagesR/0004d.jpg);
+  border-radius:20px;
+
+}
+label[for=target5d]{
+  display:inline-block;
+  width:180px;
+  height: 180px;
+  background-image:url(imagesR/0005d.jpg);
+  border-radius:20px;
+
+}
+label[for=target6d]{
+  display:inline-block;
+  width:180px;
+  height: 180px;
+  background-image:url(imagesR/0006d.jpg);
+  border-radius:20px;
+}
+label[for=target7]{
+  display:inline-block;
+  width:180px;
+  height: 180px;
+  background-image:url(imagesR/0007.jpg);
+  border-radius:20px;
+}
+label[for=target8]{
+  display:inline-block;
+  width:180px;
+  height: 180px;
+  background-image:url(imagesR/0008.jpg);
+  border-radius:20px;
+}
+
+
+
+
+img{
+  border-radius: 20px;
+  border: 2px solid yellow;
+}
+
+
+input:checked + label img{
+transition:  background-image 1s ease-out;
+opacity: 0;
+}
+
+.big{
+  padding: 20px;
+  width:1260px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  background-color: rgba(0,0,0,.9);
+  margin-bottom: 40px;
+  padding-top: 35px;
+  border-radius: 20px;
+}
+.second{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  width:1290px;
+  height:280px;
+  margin-top: 15px;
+  background-color: rgba(0,0,0,.9);
+  padding-top: 35px;
+  border-radius:20px;
+  overflow: auto;
+  position: relative;
+
+}
+.bigger{
+
+  margin-top: 10px;
+  width: 1350px;
+  height: 850px;
+  margin-left:auto;
+  margin-right:auto;
+overflow: auto;
+position: relative;
+}
+h1.win{
+
+  text-align:center;
+  color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+visibility: hidden;
+  background-color: lime;
+  position: absolute;
+  left: 80px;
+  bottom:5px;
+}
+h1.lose{
+
+  text-align:center;
+  color: white;
+  padding-left: 40px;
+  padding-right: 40px;
+  visibility: hidden;
+  background-color: red;
+  position: absolute;
+  left: 60px;
+  bottom:5px;
+
+
+}
+input#target6d:checked ~h1.win{
+visibility: visible;
+}
+input#target1d:checked ~h1.win{
+visibility: hidden;
+}
+input#target2d:checked ~h1.win{
+visibility: hidden;
+}
+input#target3d:checked ~h1.win{
+visibility: hidden;
+}
+input#target4d:checked ~h1.win{
+visibility: hidden;
+}
+input#target5d:checked ~h1.win{
+visibility: hidden;
+}
+
+
+
+
+
+
+
+input#target1d:checked ~h1.lose{
+visibility: visible;
+}
+input#target2d:checked ~h1.lose{
+
+visibility:visible;
+}input#target3d:checked ~h1.lose{
+
+visibility: visible;
+}
+input#target4d:checked ~h1.lose
+{
+visibility: visible;
+}
+input#target5d:checked ~h1.lose{
+
+visibility: visible;
+}
